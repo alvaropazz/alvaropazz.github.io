@@ -47,7 +47,7 @@ body {
 
 header {
   font-size: 1.2em;
-  padding: .2em;
+  padding: 0.2em;
   margin: 0;
   border: 0.2em solid black;
   text-align: center;
@@ -58,7 +58,7 @@ header h1 {
   margin: 0;
 }
 
-@media  (max-width: 480px) {
+@media (max-width: 480px) {
   .wrapper {
     width: 100%;
     display: flex;
