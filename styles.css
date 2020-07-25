@@ -1,6 +1,6 @@
 @font-face {
   font-family: KotoriRose;
-  src: 
+  src:
     url(fonts/KotoriRose-Bold.otf)
     format('opentype');
   font-weight: bold;
@@ -8,20 +8,22 @@
 
 @font-face {
   font-family: KotoriRose;
-  src: 
+  src:
     url(fonts/KotoriRose-Regular.otf)
     format('opentype');
 }
 
 html {
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 480px) {
+
 }
 
 body {
-  margin: 0;
-  background-color: #577399;
-  font-family: KotoriRose;
+  background-color: #EDEDED;
+  font-family: KotoriRose, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
   display: flex;
   margin: 60px auto;
@@ -42,14 +44,13 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 
 a {
   background-color: transparent;
   text-decoration: none;
-  color: #FE5F55;
+  color: #fe5f55;
 }
 
 abbr[title] {
@@ -66,7 +67,6 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -206,7 +206,7 @@ template {
 
 main {
   width: 700px;
-  background: #F7F7FF;
+  background: #f7f7ff;
   padding: 30px;
   border: 5px solid #000;
 }
@@ -214,6 +214,11 @@ main {
 aside {
   width: 140px;
   margin-left: 30px;
+}
+
+li {
+  margin-top: 15px;
+  list-style: none;
 }
 
 aside ul {
@@ -234,11 +239,11 @@ aside li a {
   font-weight: bold;
   border: 5px solid #000;
   margin-bottom: 10px;
-  background-color: #F7F7FF;
+  background-color: #f7f7ff;
 }
 
 aside li a:hover {
-  background: #FE5F55;
+  background: #fe5f55;
 }
 
 td { vertical-align: top; }
@@ -250,23 +255,13 @@ td { vertical-align: top; }
   margin-bottom: 10px;
   padding: 3px;
   padding-left: 6px;
-  color: #F7F7FF;
+  color: #f7f7ff;
 }
 
 .inner {
   padding: 0 10px;
-  word-wrap: break-all;
   text-align: justify;
   text-justify: inter-word;
-}
-
-li {
-  margin-top: 15px;
-  list-style: none;
-}
-
-ul {
-  -webkit-padding-start: 20px;
 }
 
 .thumbnail {
