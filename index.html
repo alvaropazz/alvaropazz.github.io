@@ -3,121 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="description"
-    content="Alvaro Paz is a software engineer building products and currently working on tnkoo, a voice-first social app."
-  >
+  <meta name="description" content="I'm Alvaro Paz, a software engineer building a more human internet. Currently building tnkoo, a place to meet through voice.">
+  <meta name="theme-color" content="#fbfaf6">
+  <meta property="og:title" content="Alvaro Paz">
+  <meta property="og:description" content="not an android. I'm Alvaro, a software engineer currently building tnkoo.">
+  <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,500,50,1;1,9..144,500,50,1&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/brain.png">
   <link rel="stylesheet" href="styles.css">
   <title>Alvaro Paz</title>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="page-shell">
-
     <header class="site-header">
-      <a class="brand" href="#top">
-        alvaro paz
-        <span class="status-dot" aria-hidden="true"></span>
-      </a>
-
-      <a class="header-link" href="https://tnkoo.app" target="_blank" rel="noreferrer">
-        building tnkoo
-      </a>
+      <a class="signature" href="#top" aria-label="Alvaro Paz, back to top">alvaro paz<span aria-hidden="true">.</span></a>
+      <a class="hello-link" href="mailto:alvaroipazr@gmail.com">say hello <span aria-hidden="true">&#8599;</span></a>
     </header>
 
-
-    <main class="page" id="top">
-
-      <section class="hero section">
-
-        <p class="eyebrow">/about</p>
-
-        <h1>I build software and digital products.</h1>
-
-        <p class="lede">
-          I’m a product-oriented software engineer with 5+ years of experience building
-          full-stack systems across fintech, healthcare, retail, and telecom.
-        </p>
-
-        <p class="lede lede-muted">
-          Right now I’m building
-          <a href="https://tnkoo.app" target="_blank" rel="noreferrer">tnkoo</a>,
-          a small experiment around voice conversations and live social spaces.
-        </p>
-
-
-        <div class="link-row">
-          <a class="pill-link" href="https://tnkoo.app" target="_blank" rel="noreferrer">tnkoo.app</a>
-          <a class="pill-link" href="mailto:alvaroipazr@gmail.com">email</a>
-          <a class="pill-link" href="https://linkedin.com/in/alvaropaz" target="_blank" rel="noreferrer">linkedin</a>
-          <a class="pill-link" href="https://instagram.com/alvapazz" target="_blank" rel="noreferrer">instagram</a>
-          <a class="pill-link" href="https://github.com/alvar0paz" target="_blank" rel="noreferrer">github</a>
-          <a class="pill-link" href="https://my.searchlight.ai/alvaropaz" target="_blank" rel="noreferrer">testimonials</a>
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="intro-title">
+        <div class="hero-layout">
+          <h1 class="terminal-heading" id="intro-title"><span class="terminal-prompt" aria-hidden="true">&gt;</span><span>not an<br>android<span class="terminal-cursor" aria-hidden="true"></span></span></h1>
+          <div class="introduction">
+            <p class="intro-name">I'm Alvaro.</p>
+            <p>I build digital products and follow ideas that bring people a little closer.</p>
+            <p>I care about how things work, how they feel, and what they make possible.</p>
+          </div>
         </div>
-
       </section>
 
-
-
-      <section class="section">
-
-        <div class="section-label">what i do</div>
-
-        <div class="manifest-grid">
-
-          <article class="manifest-item">
-            <h2>product thinking</h2>
-            <p>
-              I enjoy turning messy ideas into clear product decisions and
-              building things people can actually use.
-            </p>
-          </article>
-
-          <article class="manifest-item">
-            <h2>full-stack development</h2>
-            <p>
-              I work across the stack — usually with React, Node,
-              JavaScript, and TypeScript — from interface to backend
-              to system design.
-            </p>
-          </article>
-
-          <article class="manifest-item">
-            <h2>data and strategy</h2>
-            <p>
-              I also have a Master’s in Data Science and a background
-              in Economics, which helps when thinking about product
-              trade-offs and long-term decisions.
-            </p>
-          </article>
-
+      <section class="project section-row" aria-labelledby="project-title">
+        <div class="project-content">
+          <h2 id="project-title"><a class="project-link" href="https://tnkoo.app">tnkoo <span aria-hidden="true">&#8599;</span></a></h2>
+          <div class="project-description">
+            <p>I'm building a place to meet through voice. Real conversations, at a time you make for them.</p>
+            <p class="project-note">Less scrolling. More showing up.</p>
+          </div>
         </div>
-
       </section>
 
-
-
-      <section class="section">
-
-        <div class="section-label">direction</div>
-
-        <div class="closing-copy">
-          <p>I like building products that feel simple and intentional.</p>
-          <p>Interfaces that stay out of the way, and interactions that feel natural.</p>
-          <p>That’s what I’m currently exploring with tnkoo.</p>
+      <section class="background section-row" aria-label="Background">
+        <div class="background-copy">
+          <p>I'm a software engineer with 5+ years across fintech, healthcare, retail, and telecom. I work from product decisions to the code that makes them real, mostly with React and Node.</p>
         </div>
-
       </section>
-
     </main>
 
+    <footer class="site-footer">
+      <nav aria-label="Find me elsewhere">
+        <a href="https://linkedin.com/in/alvaropaz">linkedin</a>
+        <a href="https://github.com/alvar0paz">github</a>
+        <a href="https://instagram.com/alvapazz">instagram</a>
+        <a href="https://my.searchlight.ai/alvaropaz">testimonials</a>
+      </nav>
+    </footer>
   </div>
 </body>
 </html>
